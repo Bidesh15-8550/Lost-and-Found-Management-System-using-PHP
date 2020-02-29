@@ -154,7 +154,7 @@
         <div class="row">
           <div class="span4">
             <div class="logo" style="margin-top: -30px;width: 300px;" >
-              <a href="index.html"><img src="img/logo3.png" alt="" class="logo" /></a>
+              <a href="index.php"><img src="img/logo3.png" alt="" class="logo" /></a>
             </div>
           </div>
 
@@ -165,16 +165,16 @@
                 <nav>
                   <ul class="nav topnav">
                     <li class="dropdown active">
-                      <a href="index.html">Home</a>
+                      <a href="index.php">Home</a>
                     </li>
                     <li class="dropdown active">
-                      <a href="about.html"><strong> About Us</strong></a>
+                      <a href="about.php"><strong> About Us</strong></a>
                     </li>
                     <li class="dropdown active">
                       <a href="#"><strong>How it works</strong> </a>
                     </li>
                     <li class="dropdown active">
-                      <a href="contact.html"><strong>Support</strong> </a>
+                      <a href="contact.php"><strong>Support</strong> </a>
                     </li>
                   </ul>
                 </nav>
