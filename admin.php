@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="shortcut icon" href="ico/favicon.png" />
-    <title>Admin</title>
+    <title>Admin Login</title>
     <style>
         body,html {
     background-image: url('https://i.imgur.com/xhiRfL6.jpg');
@@ -19,6 +24,9 @@
     height: 80% !important;
 }
     </style>
+       <?php
+        include 'links.php'
+    ?>
 </head>
 <body>
     
@@ -29,12 +37,17 @@
                 <div class="text-center">
                     <img id="profile-img" class="rounded-circle profile-img-card" src="https://i.imgur.com/6b6psnA.png" />
                     <p id="profile-name" class="profile-name-card"></p>
-                    <form  class="form-signin">
-                        
-                        <input type="text"name="Username"id="inputText"class="form-control form-group" placeholder="Username"required>
-                        <input type="password" name="password" id="inputPassword" class="form-control form-group" placeholder="Password" required autofocus>
-                        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Login</button>
-                    </form><!-- /form -->
+                    <form action="logincheck.php" method="POST">
+                            <div class="form-group">
+                                <label style="color:#FFFFFF;">Email ID</label>
+                                <input type="text" name="user"value="" class="form-control" autocomplete="off" required>
+                            </div>
+                            <div class="form-group">
+                                <label   style="color:#FFFFFF;">Password</label>
+                                <input type="password" name="pass"value="" class="form-control" autocomplete="off" required>
+                            </div>
+                            <input type="submit" class="btn btn-success" name="submit">
+                        </form>
                 </div>
             </div>
         </div>

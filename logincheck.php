@@ -28,7 +28,7 @@ if(isset($_POST['submit'])){
             header('location:adminpanel.php');
         }else{
             echo "login failed";
-            header('location:adminlogin.php');
+            header('location:admin.php');
         }
     }
     
