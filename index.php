@@ -26,12 +26,7 @@
   <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
   <link rel="shortcut icon" href="ico/favicon.png" />
 
-  <!-- =======================================================
-    Theme Name: Flattern
-    Theme URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+  
 </head>
 
 <body>
