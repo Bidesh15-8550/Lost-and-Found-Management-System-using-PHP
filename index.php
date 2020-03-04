@@ -116,7 +116,7 @@
                 </form>
               </div>
             </div>
-            <!-- end signin modal -->
+            <!-- end of signin modal -->
             <!-- Reset Modal -->
             <div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog"
               aria-labelledby="myResetModalLabel" aria-hidden="true">
