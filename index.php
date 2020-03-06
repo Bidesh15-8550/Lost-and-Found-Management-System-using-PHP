@@ -191,6 +191,7 @@
     <section id="featured">
       <!-- start slider -->
       <!-- Slider -->
+      <!--nivo-slider bootstrap class for sliding images -->
       <div id="nivo-slider">
         <div class="nivo-slider">
           <!-- Slide #1 image -->
