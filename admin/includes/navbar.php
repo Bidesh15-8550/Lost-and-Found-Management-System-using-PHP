@@ -41,6 +41,12 @@
     <span>Manage Users</span></a>
 </li>
 
+<li class="nav-item">
+  <a class="nav-link" href="register.php">
+  <i class="fas fa-tasks"></i>
+    <span>Manage Lost Products</span></a>
+</li>
+
 
 
 
