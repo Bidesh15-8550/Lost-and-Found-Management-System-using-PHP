@@ -64,7 +64,7 @@
                       <a href="about.php"><strong> About Us</strong></a>
                     </li>
                     <li class="dropdown active">
-                      <a href="#"><strong>How it works</strong> </a>
+                      <a href="#"><strong>Search Your Products</strong> </a>
                     </li>
                     <li class="dropdown active">
                       <a href="contact.php"><strong>Support</strong> </a>
