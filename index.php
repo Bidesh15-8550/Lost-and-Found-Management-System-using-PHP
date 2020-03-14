@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="ico/favicon.png" />
 </head>
 <body>
-
+  
   <div class="header">
     <h2>Not a member!</h2>
     <h2>Sign Up Here</h2>
