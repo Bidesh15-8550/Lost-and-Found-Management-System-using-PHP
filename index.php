@@ -1,8 +1,10 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Lost and Found-User Signup</title>
   <link rel="stylesheet"type="text/css" href="css/register.css">
+  <link rel="shortcut icon" href="ico/favicon.png" />
 </head>
 <body>
 
@@ -11,7 +13,8 @@
     <h2>Sign Up Here</h2>
   </div>
   
-  <form action="usersignup.php" method="POST">
+  <form action="index.php" method="post">
+    <?php include('errors.php');      ?>
     <div class="input-group">
         <label>Username</label>
         <input type="text" name="username">

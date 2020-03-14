@@ -3,6 +3,7 @@
 <head>
   <title>Lost and Found-User Signin</title>
   <link rel="stylesheet"type="text/css" href="css/register.css">
+  <link rel="shortcut icon" href="ico/favicon.png" />
 </head>
 <body>
 
@@ -11,7 +12,7 @@
     <h2>Sign Up Here</h2>
   </div>
   
-  <form action="userlogin.php" method="POST">
+  <form action="login.php" method="post">
     <div class="input-group">
         <label>Username</label>
         <input type="text" name="username">
@@ -24,7 +25,7 @@
         <button type="submit" name="login" class="btn">Login</button>
     </div>
     <p>
-      Not a member? <a href="index.php">Sign In</a>
+      Not a member? <a href="index.php">Sign Up</a>
     </p>
   </form>
 </body>
