@@ -1,4 +1,5 @@
 <?php 
+    session_start();
 
     $username = "";
     $email = "";
@@ -33,8 +34,46 @@
             $sql = "INSERT INTO users (username,email,password) 
                         VALUES ('$username','$email','$password')";
             mysqli_query($db,$sql);
+            $_SESSION['username'] = $username;
+            $_SESSION['success']="Signed up Successfully";
+            header('location: index.php');
         }
 
+    }
+
+    if(isset($_POST['login'])){
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+
+        if(empty($username)){
+            array_push($errors,"Username is required");
+        }
+        if(empty($password)){
+            array_push($errors,"Password is required");
+        }
+
+        if(count($errors)==0){
+            $password = md5($password);
+            $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+            $result = mysqli_query($db,$query);
+            if(mysqli_num_rows($result)==1){
+                $_SESSION['username'] = $username;
+                $_SESSION['success']="Logged in Successfully";
+                header('location: homepage.php');
+            }
+            else{
+                array_push($errors, "Wrong username or password ");
+                header('location: login.php');
+
+            }
+        }
+    }
+
+    if(isset($_GET['logout'])){
+        session_destroy();
+        unset($_SESSION['username']);
+        header('location:login.php');
     }
 
 
