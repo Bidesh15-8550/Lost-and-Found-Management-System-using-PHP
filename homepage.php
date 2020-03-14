@@ -48,15 +48,13 @@
               <ul>
                 <li><a href="logins.php?logout='1' " style="color:red; font-size:15px"><i class="icon-user"></i>Logout</a></li>
               </ul>
-            </div>
-            <!-- Signup Modal -->
-            
+            </div>   
           </div>
         </div>
         <div class="row">
           <div class="span4">
             <div class="logo" style="margin-top: -30px;width: 300px;" >
-              <a href="index.php"><img src="img/logo3.png" alt="" class="logo" /></a>
+              <a href="homepage.php"><img src="img/logo3.png" alt="" class="logo" /></a>
             </div>
           </div>
 
