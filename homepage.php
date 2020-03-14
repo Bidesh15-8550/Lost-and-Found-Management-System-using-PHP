@@ -1,7 +1,7 @@
 <?php include('server.php');
     //if user is not logged in they cannot access this page
     if(empty($_SESSION['username'])){
-      header('location:login.php');
+      header('location:logins.php');
     }
 
 ?>
@@ -46,7 +46,7 @@
           <div class="span12">
             <div class="headnav" style="margin-right: 13px;" >
               <ul>
-                <li><a href="login.php?logout='1' " style="color:red; font-size:15px"><i class="icon-user"></i>Logout</a></li>
+                <li><a href="logins.php?logout='1' " style="color:red; font-size:15px"><i class="icon-user"></i>Logout</a></li>
               </ul>
             </div>
             <!-- Signup Modal -->

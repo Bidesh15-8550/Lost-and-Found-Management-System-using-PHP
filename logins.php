@@ -13,7 +13,7 @@
     <h2>Sign In</h2>
   </div>
   
-  <form action="login.php" method="post">
+  <form action="logins.php" method="post">
   <?php include('errors.php'); ?>
     <div class="input-group">
         <label>Username</label>
@@ -24,7 +24,7 @@
         <input type="password" name="password">
     </div>
     <div class="input-group">
-        <button type="submit" name="login" class="btn">Login</button>
+        <button type="submit" name="logins" class="btn">Login</button>
     </div>
     <p>
       Not a member? <a href="index.php">Sign Up</a>

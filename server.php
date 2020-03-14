@@ -41,7 +41,7 @@
 
     }
 
-    if(isset($_POST['login'])){
+    if(isset($_POST['logins'])){
         $username = $_POST['username'];
         $password = $_POST['password'];
 
@@ -64,7 +64,7 @@
             }
             else{
                 array_push($errors, "Wrong username or password ");
-                header('location: login.php');
+                header('location: logins.php');
 
             }
         }
@@ -73,7 +73,7 @@
     if(isset($_GET['logout'])){
         session_destroy();
         unset($_SESSION['username']);
-        header('location:login.php');
+        header('location:logins.php');
     }
 
 

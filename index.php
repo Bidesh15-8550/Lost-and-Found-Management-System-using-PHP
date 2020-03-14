@@ -35,7 +35,7 @@
         <button type="submit" name="register" class="btn">Sign Up</button>
     </div>
     <p>
-      Already a member? <a href="login.php">Sign In</a>
+      Already a member? <a href="logins.php">Sign In</a>
     </p>
   </form>
 </body>
