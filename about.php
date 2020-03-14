@@ -1,9 +1,5 @@
 <?php  
-include('links/header.php'); 
-if(empty($_SESSION['username'])){
-  header('location:logins.php');
-}
-
+include('links/header.php');       
 
 
 ?>
