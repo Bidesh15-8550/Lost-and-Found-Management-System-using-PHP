@@ -36,15 +36,15 @@
 </li>
 
 <li class="nav-item">
-  <a class="nav-link" href="register.php">
+  <a class="nav-link" href="users.php">
     <i class="fas fa-user-circle"></i>
     <span>Manage Users</span></a>
 </li>
 
 <li class="nav-item">
-  <a class="nav-link" href="register.php">
+  <a class="nav-link" href="items.php">
   <i class="fas fa-tasks"></i>
-    <span>Manage Lost Products</span></a>
+    <span>Manage Lost Items</span></a>
 </li>
 
 
