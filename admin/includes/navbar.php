@@ -44,7 +44,7 @@
 <li class="nav-item">
   <a class="nav-link" href="items.php">
   <i class="fas fa-tasks"></i>
-    <span>Manage Lost Items</span></a>
+    <span>Add Lost Items</span></a>
 </li>
 
 
