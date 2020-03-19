@@ -3,6 +3,11 @@ session_start();
 include('includes/header.php'); 
 include('includes/navbar.php'); 
 ?>
+<?php
+$link=mysqli_connect("localhost","root","");
+mysqli_select_db($link,"adminpanel");
+
+?>
     <div class="grid_10">
         <div class="card-header py-3">
             <h6 class="m-0 font-weight-bold text-primary">
@@ -10,7 +15,7 @@ include('includes/navbar.php');
             </h6>
         </div>
         <div class="block" style="margin-left:50px">
-            <form name="form1" action="" method="post">
+            <form name="form1" action="" method="post" enctype="multipart/form-data">
                 <table>
                     <tr>
                         <td>Item Name</td>
@@ -36,6 +41,7 @@ include('includes/navbar.php');
                             </select>
                         </td>
                     </tr>
+                    </br>
                     <tr>
                         <td colspan="2">
                             <input type="submit" name="submit1" value="Upload">
@@ -44,6 +50,18 @@ include('includes/navbar.php');
                 
                 </table>
             </form>
+<?php
+if(isset($_POST["submit1"]))
+{
+    $fnm=$_FILES["pimage"] ["name"];
+    $dst="./item_image/".$fnm;
+    move_uploaded_file($_FILES["pimage"]["tmp_name"],$dst);
+}
+
+
+
+?>
+          
         </div>
     </div>
 
