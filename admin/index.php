@@ -32,13 +32,14 @@ mysqli_select_db($link,"adminpanel");
             
             <div class="col-sm-4">
             <div class="product-image-wrapper">
-                <div class="products">
+                <div class="single-products">
                     <div class="productinfo text-center">
                         <img src="../admin/<?php echo $row["item_image"];    ?>" alt=""height="320"width="250">
                         <p>Item Name: <?php echo $row["item_name"];  ?></p>
                         <p>Category: <?php echo $row["item_category"];  ?></p>
                     </div>
-                </div>
+                
+                
             </div>
           </div>
 
