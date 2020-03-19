@@ -8,46 +8,53 @@ if(empty($_SESSION['username'])){
 <?php  
 include('includes/header.php');       
 include('includes/navbar.php');
-
+$link=mysqli_connect("localhost","root","");
+mysqli_select_db($link,"adminpanel");
 ?>
 
-
-
-    <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
-
-      <!-- Main Content -->
       <div id="content">
 
-        <!-- Topbar -->
-       
-        <!-- End of Topbar -->
-
-        <!-- Begin Page Content -->
+        
         <div class="container-fluid">
 
-          <!-- Page Heading -->
+         
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <h1 class="h3 mb-0 text-gray-800">Lost items</h1>
            
           </div>
 
-          <!-- Content Row -->
-          <div class="row">
+        <?php
 
-            <!-- Earnings (Monthly) Card Example -->
+            $res=mysqli_query($link,"select * from items");
+            while($row=mysqli_fetch_array($res)){
+                ?>
             
+            <div class="col-sm-4">
+            <div class="product-image-wrapper">
+                <div class="products">
+                    <div class="productinfo text-center">
+                        <img src="../admin/<?php echo $row["item_image"];    ?>" alt=""height="320"width="250">
+                        <p>Item Name: <?php echo $row["item_name"];  ?></p>
+                        <p>Category: <?php echo $row["item_category"];  ?></p>
+                    </div>
+                </div>
+            </div>
           </div>
 
-          <!-- Content Row -->
 
+            <?php
+                }
+        ?>
+        
+     </div>
 
+</div>
         </div>
-        <!-- /.container-fluid -->
-
+      
       </div>
-      <!-- End of Main Content -->
-
+      
+    </div>
       
 
 
@@ -57,10 +64,3 @@ include('includes/footer.php');
 
 
 ?>
-
-
-
-  
-
- 
-
