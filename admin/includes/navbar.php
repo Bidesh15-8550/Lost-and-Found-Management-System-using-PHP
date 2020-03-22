@@ -3,10 +3,10 @@
 
 <!-- Sidebar - Brand -->
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-  <div class="sidebar-brand-icon rotate-n-15">
-    <i class="fas fa-laugh-wink"></i>
+  <div class="sidebar-brand-icon">
+  <i class="fas fa-users"></i>
   </div>
-  <div class="sidebar-brand-text mx-3">Admin Panel</sup></div>
+  <div class="sidebar-brand-text mx-1">Admin Panel</sup></div>
 </a>
 
 <!-- Divider -->
@@ -27,7 +27,11 @@
 
 
 
-
+<li class="nav-item">
+  <a class="nav-link" href="index.php">
+  <i class="fas fa-tachometer-alt"></i>
+    <span>Dashboard</span></a>
+</li>
 
 <li class="nav-item">
   <a class="nav-link" href="register.php">
@@ -48,7 +52,7 @@
 </li>
 <li class="nav-item">
   <a class="nav-link" href="manageitem.php">
-  <i class="fas fa-tasks"></i>
+  <i class="fas fa-folder-plus"></i>
     <span>Manage Lost Items</span></a>
 </li>
 
