@@ -39,7 +39,8 @@
           <div class="span12">
             <div class="headnav" style="margin-right: 13px;" >
               <ul>
-                <li><a href="login.php?logout='1' " style="color:red; font-size:15px"><i class="icon-user"></i>Logout</a></li>
+                <h5><b> Welcome <?php echo $_SESSION['username'];  ?></b></h5>
+                <li><a href="logout.php" style="color:red; font-size:15px"><i class="icon-user"></i>Logout</a></li>
               </ul>
             </div>   
           </div>
