@@ -15,12 +15,12 @@ $s= "SELECT * FROM users WHERE username='$username' ";
 $result = mysqli_query($con , $s);
 $num = mysqli_num_rows($result);
 if($num == 1){
-    echo "username already taken";
+    echo "username already exist";
 }
 else{
     $reg = "INSERT INTO users(username , email , password) VALUES ('$username','$email','$password') ";
     mysqli_query($con,$reg);
-    echo "Registration Successful";
+    header ('location:login.php');
 }
 
 ?>
