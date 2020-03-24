@@ -6,6 +6,7 @@
     <title>User Login And registration</title>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ico/favicon.png" />
 </head>
 <body>
     <div class="container">
