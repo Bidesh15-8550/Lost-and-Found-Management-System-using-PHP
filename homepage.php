@@ -1,9 +1,9 @@
-<?php include('server.php');
-    //if user is not logged in they cannot access this page
-    if(empty($_SESSION['username'])){
-      header('location:logins.php');
-    }
+<?php
+session_start();
 
+if(!isset($_SESSION['username'])){
+    header('location:login.php');
+}
 ?>
 <?php  
 include('links/header.php');       

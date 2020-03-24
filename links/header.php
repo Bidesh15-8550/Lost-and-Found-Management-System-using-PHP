@@ -39,7 +39,7 @@
           <div class="span12">
             <div class="headnav" style="margin-right: 13px;" >
               <ul>
-                <li><a href="logins.php?logout='1' " style="color:red; font-size:15px"><i class="icon-user"></i>Logout</a></li>
+                <li><a href="login.php?logout='1' " style="color:red; font-size:15px"><i class="icon-user"></i>Logout</a></li>
               </ul>
             </div>   
           </div>
