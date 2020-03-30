@@ -47,7 +47,7 @@
         </div>
         <div class="row">
           <div class="span4">
-            <div class="logo" style="margin-top: -30px;width: 300px;" >
+            <div class="logo" style="margin-top: -100px;width: 300px;" >
               <a href="homepage.php"><img src="img/logo3.png" alt="" class="logo" /></a>
             </div>
           </div>
