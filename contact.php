@@ -58,9 +58,11 @@ include('links/header.php');
 
 
       <?php  
-include('links/footer.php');       
-
-
+include('links/footer.php');
 ?>
-      </body>
-      </html>
+  </div>
+<?php  
+include('links/js.php');
+?>
+</body>
+</html>

@@ -93,12 +93,11 @@ include('links/header.php');
       
       
     <?php  
-include('links/footer.php');       
-
-
+include('links/footer.php');
 ?>
-
-</div>
-
+  </div>
+<?php  
+include('links/js.php');
+?>
 </body>
 </html>

@@ -89,26 +89,12 @@ include('links/slider.php');
 
 
 
-      <?php  
-include('links/footer.php');       
-
-
+<?php  
+include('links/footer.php');
 ?>
-
-
-
   </div>
-
-
-
-
-  <!-- javascript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <?php  
-include('links/js.php');       
-
-
+<?php  
+include('links/js.php');
 ?>
 </body>
 </html>
