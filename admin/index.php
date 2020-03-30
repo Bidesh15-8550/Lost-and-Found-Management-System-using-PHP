@@ -35,7 +35,7 @@ while($row=mysqli_fetch_array($res)){
                 <div class="product-image-wrapper">
                 <div class="single-products">
                     <div class="productinfo text-center">
-                        <img src="../admin/<?php echo $row["item_image"];    ?>" alt=""height="320"width="250">
+                        <img src="../admin/<?php echo $row["item_image"];    ?>" alt=""height="200"width="250">
                         <p>Item Name: <?php echo $row["item_name"];  ?></p>
                         <p>Category: <?php echo $row["item_category"];  ?></p>
                     </div>
