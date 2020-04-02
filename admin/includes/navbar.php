@@ -20,7 +20,7 @@
 
 <!-- Heading -->
 <div class="sidebar-heading">
-  Interface
+  Currently login as-<?php echo $_SESSION['username'];  ?>
 </div>
 
 <!-- Nav Item - Pages Collapse Menu -->
