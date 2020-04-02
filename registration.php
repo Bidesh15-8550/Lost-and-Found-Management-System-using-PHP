@@ -4,7 +4,7 @@ session_start();
 header ('location:login.php');
 
 $con = mysqli_connect('localhost','root','');
-mysqli_select_db($con, 'adminpanel');
+mysqli_select_db($con, 'lost_user');
 
 $user = $_POST['user'];
 $email =  $_POST['email'];

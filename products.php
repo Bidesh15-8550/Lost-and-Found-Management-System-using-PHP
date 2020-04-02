@@ -8,7 +8,7 @@ if(!isset($_SESSION['user'])){
 <?php  
 include('links/header.php');       
 $link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"adminpanel");
+mysqli_select_db($link,"lost_user");
 ?>
    <div id="content-wrapper" class="d-flex">
       <div id="content">

@@ -76,7 +76,7 @@ include('includes/navbar.php');
     <div class="table-responsive">
 
       <?php  
-          $connection = mysqli_connect("localhost","root","","adminpanel");
+          $connection = mysqli_connect("localhost","root","","lost_user");
           $query = "SELECT *FROM users";
           $query_run = mysqli_query($connection,$query);
 
