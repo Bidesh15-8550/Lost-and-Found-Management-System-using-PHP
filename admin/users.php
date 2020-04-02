@@ -100,7 +100,7 @@ include('includes/navbar.php');
                   ?>
           <tr>
             <td><?php echo $row['id'];   ?></td>
-            <td><?php echo $row['username'];   ?></td> 
+            <td><?php echo $row['user'];   ?></td> 
             <td><?php echo $row['email'];   ?></td>
            
             
