@@ -24,7 +24,7 @@
             <div class="span6">
               <div class="copyright">
                 <p>
-                  <span>&copy; Bidesh Biswas Biki - All right reserved.</span>
+                  <span>&copy; Bidesh Biswas - All right reserved.</span>
                 </p>
                 <div class="credits">
                   <!--
