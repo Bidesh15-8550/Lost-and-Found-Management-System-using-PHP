@@ -16,13 +16,13 @@ include('links/header.php');
           <div class="row">
             <div class="span4">
               <div class="inner-heading">
-                <h2>About us</h2>
+                <h2>About Me</h2>
               </div>
             </div>
             <div class="span8">
               <ul class="breadcrumb">
                 <li><a href="homepage.php"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
-                <li class="active">About us</li>
+                <li class="active">About Me</li>
               </ul>
             </div>
           </div>
@@ -36,7 +36,7 @@ include('links/header.php');
        
         <div class="row">
           <div class="span12">
-            <h4>Talented peoples behind Lost and Found System</h4>
+            <h4>Talented people behind Lost and Found System</h4>
           </div>
      
           <div class="span3">
@@ -47,14 +47,7 @@ include('links/header.php');
               </p>
             </div>
           </div>
-          <div class="span3">
-            <img src="img/dummies/team3.jpg" alt="" class="img-polaroid" style="height: 339px;" />
-            <div class="roles">
-              <p class="lead">
-                <strong>Afsana Akter</strong>
-              </p>
-            </div>
-          </div>
+         
          
      
         </div>
