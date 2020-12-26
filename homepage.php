@@ -69,7 +69,7 @@ include('links/slider.php');
                     <div class="text">
                       <h6>How?</h6>
                       <p>
-                        The process is very simple. We are the facilitators between the establishments (airlines, car rental agencies, hotels, etc.) and the guest. Once the guest contacts the establishment, the establishment refers him or her to our website and we arrange for the lost item's  return.
+                      The process is very simple. We are the facilitators between the establishments (airlines, car rental agencies, hotels, etc.) and the guest. Once the guest contacts the establishment, the establishment refers him or her to our website and we arrange for the lost item's  return.
                       </p>
                      
                     </div>
